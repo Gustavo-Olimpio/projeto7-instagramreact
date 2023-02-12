@@ -37,7 +37,7 @@ export default function Post(props){
                     <div class="curtidas">
                         <img src={props.pcurtimg} alt="respondeai" />
                         <div class="texto">
-                            Curtido por <strong data-test="likes-number">{props.pcurt}</strong> e <strong>outras {Number(props.qtdcut)+num} pessoas</strong>
+                            Curtido por <strong>{props.pcurt}</strong> e <strong data-test="likes-number">outras {Number(props.qtdcut)+num} pessoas</strong>
                         </div>
                     </div>
                 </div>
